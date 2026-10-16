@@ -1,0 +1,26 @@
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated meeting files
+*_converted.wav
+*_chunk_*.wav
+meeting_transcript.txt
+gemini_meeting_analysis.txt
+
+# Local data and downloads
+downloads/
+vector_db/
+
+# Audio samples
+*.mp3
+*.wav
